@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.localnet]
+mysolanaapp = "3SJBgNeZUBf5RstF7a9zzCiVj5qMyQZxgwD9dpP2RKhL"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/hakeemullah/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
